@@ -1,0 +1,14 @@
+{
+    "tsGarbageCollection": 1607558042,
+    "errors": {
+        "6b7d2fa68ac95b7ddbe8ea982f0fd374": {
+            "file": "\/Users\/teddy\/Documents\/quicktours-mls\/handlers\/quicklistings\/admin\/mls\/mapping-update.php",
+            "line": 15,
+            "errType": 1024,
+            "errMsg": "1452: Cannot add or update a child row: a foreign key constraint fails (`quicklistings`.`mls_rets_mapping`, CONSTRAINT `FK_mls_rets_mapping__mls_rets_field_id` FOREIGN KEY (`mls_rets_field_id`) REFERENCES `mls_rets_fields` (`id`) ON DELETE SET NULL)",
+            "tsEmailed": 1607558042,
+            "emailedTo": "you@example.com",
+            "countSince": 0
+        }
+    }
+}
